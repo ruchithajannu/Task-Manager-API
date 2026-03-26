@@ -41,14 +41,16 @@ task-manager-api/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-How to Run
+
+## How to Run
 git clone https://github.com/ruchithajannu/Task-Manager-API.git
 cd Task-Manager-API
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
-API Docs
+
+##API Docs
 
 Visit:
 
